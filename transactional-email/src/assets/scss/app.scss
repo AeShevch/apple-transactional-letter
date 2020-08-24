@@ -14,7 +14,7 @@
     padding: 0 10px!important;
 
     strong {
-      color: $white;
+      color: $black;
     }
   }
 
@@ -58,7 +58,7 @@
   }
 
   &__title {
-    color: $white;
+    color: $black;
     font-weight: 700;
     font-size: 28px;
     line-height: 33px;
@@ -71,7 +71,7 @@
     border-collapse: separate;
   }
 
-  &image-wrap {
+  &__image-wrap {
     background-color: #f8f8f8;
   }
 }
@@ -105,7 +105,7 @@
 
     &_value {
       padding-left: 5px;
-      color: $white;
+      color: $black;
     }
 
     &_price {
