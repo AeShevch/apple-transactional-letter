@@ -1,0 +1,12 @@
+.l-footer {
+  &__text {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 26px;
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+    }
+  }
+}

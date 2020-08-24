@@ -1,0 +1,25 @@
+.c-mobile-app {
+  &__title {
+    margin-bottom: 0;
+    font-size: 30px;
+    line-height: 36px;
+    color: $white;
+  }
+
+  &__item {
+    &_left {
+      float: right;
+      display: inline-block;
+    }
+
+    @media only screen and (max-width: $global-breakpoint) {
+      text-align: center!important;
+      float: none!important;
+      display: block!important;
+
+      img {
+        margin: 0 auto!important;
+      }
+    }
+  }
+}

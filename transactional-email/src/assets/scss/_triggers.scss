@@ -1,0 +1,15 @@
+.c-letter-trigger {
+  &__title {
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: $white;
+  }
+
+  &__text {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,213 @@
+---
+layout: index-layout
+subject: Ваш заказ принят
+imagesLinkProd: http://iport.ru/images/email
+---
+
+<container class="c-letter">
+    <row class="collapse">
+        <!-- Лого -->
+        <columns class="column-border">
+            <spacer size="30"></spacer>
+            <center>
+                <img alt="iPort"
+                     width="140" height="40"
+                     loading="lazy"
+                     src="{{imagesLinkProd}}/assets/img/logo-white.png">
+            </center>
+            <spacer size="30"></spacer>
+            <hr class="c-letter__line">
+        </columns>
+    </row>
+    <row class="collapse">
+        <!-- Сообщение о статусе заказа -->
+        <columns>
+            <center>
+                <spacer size="30"></spacer>
+                <img src="{{imagesLinkProd}}/assets/img/order-ok.png"
+                     alt="Ваш заказ принят"
+                     width="67" height="55">
+                <spacer size="30"></spacer>
+                <h1 class="c-letter__title text-center">
+                    Ваш заказ <strong>№ i121579</strong> от <strong>26.11.2019</strong> принят.
+                </h1>
+                <p class="c-letter__message text-center">
+                    В ближайшее время мы свяжемся с вами <br> для его подтверждения.
+                </p>
+                <spacer size="30"></spacer>
+            </center>
+        </columns>
+    </row>
+
+    <spacer class="c-letter__delimiter" size="10"></spacer>
+    <spacer size="30"></spacer>
+
+    <row class="c-ordered-product inner-padding">
+        <!-- Заказанный товар -->
+        <columns large="4" small="12" valign="middle"><span class="c-ordered-product__cn">PN: Z0Y600033</span></columns>
+        <columns large="4" small="12"><h2 class="c-ordered-product__title text-center">MacBook Pro</h2></columns>
+        <columns large="4" small="12"></columns>
+    </row>
+
+    <spacer size="21"></spacer>
+
+    <!-- Изображение товара -->
+    <row class="c-ordered-product inner-padding">
+        <columns>
+            <center class="c-ordered-product__image-wrap">
+                <img src="{{imagesLinkProd}}/assets/img/macbook.jpg"
+                     class="c-ordered-product__image"
+                     alt="Макбук"
+                     loading="lazy"
+                     width="504" height="434">
+            </center>
+        </columns>
+    </row>
+
+    <spacer size="20"></spacer>
+
+    <!--  Свойства товара  -->
+    <row class="c-ordered-product">
+        <columns>
+            <row class="inner-padding">
+                <columns>
+                    <table class="c-ordered-product__properties">
+                        <tbody>
+                        <tr class="c-ordered-product-property">
+                            <th scope="row" class="text-left">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_name">
+                            Модель:
+                        </span>
+                            </th>
+                            <td class="text-right">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_value">
+                            13-inch MacBook Pro with Touch Bar/NEW
+                        </span>
+                            </td>
+                        </tr>
+                        <tr class="c-ordered-product-property">
+                            <th scope="row" class="text-left">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_name">
+                            Цвет:
+                        </span>
+                            </th>
+                            <td class="text-right">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_value">
+                            Space Gray
+                        </span>
+                            </td>
+                        </tr>
+                        <tr class="c-ordered-product-property">
+                            <th scope="row" class="text-left">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_name">
+                            Диагональ экрана:
+                        </span>
+                            </th>
+                            <td class="text-right">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_value">
+                            13
+                        </span>
+                            </td>
+                        </tr>
+                        <tr class="c-ordered-product-property">
+                            <th scope="row" class="text-left">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_name">
+                            Процессор:
+                        </span>
+                            </th>
+                            <td class="text-right">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_value">
+                            2.3GHz quad-core 10th‑generation Intel Core i7 processor, Turbo Boost up to 4.1GHz
+                        </span>
+                            </td>
+                        </tr>
+                        <tr class="c-ordered-product-property">
+                            <th scope="row" class="text-left">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_name">
+                            Оперативная память:
+                        </span>
+                            </th>
+                            <td class="text-right">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_value">
+                            32GB 3733MHz LPDDR4X memory
+                        </span>
+                            </td>
+                        </tr>
+                        <tr class="c-ordered-product-property">
+                            <th scope="row" class="text-left">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_name">
+                            Накопитель:
+                        </span>
+                            </th>
+                            <td class="text-right">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_value">
+                            Intel Iris Plus Graphics, 1TB PCIe-based SSD
+                        </span>
+                            </td>
+                        </tr>
+                        <tr class="c-ordered-product-property">
+                            <th scope="row" class="text-left">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_name">
+                            В комплекте:
+                        </span>
+                            </th>
+                            <td class="text-right">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_value">
+                            Русская раскладка
+                        </span>
+                            </td>
+                        </tr>
+                        <!-- Пустая строка для отступа перед ценой-->
+                        <tr>
+                            <td colspan="2">
+                                <spacer size="20"></spacer>
+                            </td>
+                        </tr>
+                        <tr class="c-ordered-product-property">
+                            <th scope="row" class="text-left">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_name">
+                            Цена:
+                        </span>
+                            </th>
+                            <td class="text-right">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_price c-ordered-product-property__item_value">
+                            253 990 ₽
+                        </span>
+                            </td>
+                        </tr>
+                        <tr class="c-ordered-product-property">
+                            <th scope="row" class="text-left">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_name">
+                            Срок поставки:
+                        </span>
+                            </th>
+                            <td class="text-right">
+                                <span class="c-ordered-product-property__item c-ordered-product-property__item_value">
+                            4 недели
+                        </span>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </columns>
+            </row>
+        </columns>
+    </row>
+
+    <spacer size="40"></spacer>
+
+    <!--  Приемущества  -->
+    {{>triggers}}
+
+    <!--  Мобильное приложение  -->
+    {{>mobile-app}}
+
+    <!--  Социальные сети и логотип -->
+    {{>social}}
+
+    <!--  Подвал -->
+    {{>footer}}
+
+    <spacer class="background-fill" size="30"></spacer>
+</container>
+

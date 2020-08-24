@@ -1,0 +1,120 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import "triggers";
+@import "mobile-app";
+@import "footer";
+
+
+.c-letter {
+  &__title {
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    padding: 0 10px!important;
+
+    strong {
+      color: $white;
+    }
+  }
+
+  &__line {
+    color: $border-color;
+    background-color: $border-color;
+    border-color: $border-color;
+    padding: 0;
+    border-style: solid;
+    border-bottom: 0;
+
+    max-width: 600px;
+    margin: 0 auto;
+
+    &_wide {
+      max-width: 100%;
+    }
+  }
+
+  &__message {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+  }
+
+  &__delimiter {
+    background-color: $body-background;
+  }
+}
+
+.c-ordered-product {
+  &__cn {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 5px;
+    display: block;
+
+    @media only screen and (max-width: $global-breakpoint) {
+      text-align: center!important;
+    }
+  }
+
+  &__title {
+    color: $white;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__properties {
+    border-spacing: 0 16px;
+    border-collapse: separate;
+  }
+
+  &image-wrap {
+    background-color: #f8f8f8;
+  }
+}
+
+.c-ordered-product-property {
+  th, td {
+    position: relative;
+    border-bottom: 1px dashed $border-color;
+  }
+
+  &__dots {
+    display: block;
+    // Размер шрифта - 1
+    height: 19px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  &__item {
+    display: inline;
+    position: relative;
+    font-size: 20px;
+
+    &_name {
+      padding-right: 5px;
+      white-space: nowrap;
+      float: left;
+      text-align: left;
+    }
+
+    &_value {
+      padding-left: 5px;
+      color: $white;
+    }
+
+    &_price {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 20px;
+      white-space: nowrap;
+    }
+  }
+}
+
+@import 'template/template';
