@@ -5,11 +5,28 @@
     font-weight: 700;
     margin-bottom: 0;
     color: $black;
+
+    @media only screen and (max-width: $global-breakpoint) {
+      font-size: 12px!important;
+      line-height: 1!important;
+      margin: 8px 0!important;
+    }
   }
 
   &__text {
     font-size: 20px;
     line-height: 26px;
     margin-bottom: 0;
+
+    @media only screen and (max-width: $global-breakpoint) {
+      font-size: 12px!important;
+      line-height: 1.4!important;
+    }
+  }
+
+  &__image {
+    @media only screen and (max-width: $global-breakpoint) {
+      width: 50px!important;
+    }
   }
 }

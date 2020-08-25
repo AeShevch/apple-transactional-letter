@@ -4,6 +4,7 @@
 @import "triggers";
 @import "mobile-app";
 @import "footer";
+@import "social";
 
 
 .c-letter {
@@ -11,7 +12,7 @@
     font-size: 24px;
     line-height: 29px;
     text-align: center;
-    padding: 0 10px!important;
+    padding: 0 8px!important;
 
     strong {
       color: $black;
@@ -38,6 +39,7 @@
     font-size: 18px;
     line-height: 21px;
     text-align: center;
+    padding: 0 8px!important;
   }
 
   &__delimiter {
@@ -80,21 +82,17 @@
   th, td {
     position: relative;
     border-bottom: 1px dashed $border-color;
-  }
-
-  &__dots {
-    display: block;
-    // Размер шрифта - 1
-    height: 19px;
-    width: 100%;
-    position: absolute;
-    top: 0;
+    padding-bottom: 1em;
   }
 
   &__item {
     display: inline;
     position: relative;
     font-size: 20px;
+
+    @media only screen and (max-width: $global-breakpoint) {
+      font-size: 16px!important;
+    }
 
     &_name {
       padding-right: 5px;
@@ -113,6 +111,11 @@
       font-size: 28px;
       line-height: 20px;
       white-space: nowrap;
+
+
+      @media only screen and (max-width: $global-breakpoint) {
+        font-size: 20px!important;
+      }
     }
   }
 }

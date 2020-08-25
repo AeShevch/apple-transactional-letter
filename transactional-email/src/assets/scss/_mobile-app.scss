@@ -4,6 +4,12 @@
     font-size: 30px;
     line-height: 36px;
     color: $black;
+
+    @media only screen and (max-width: $global-breakpoint) {
+      font-size: 20px!important;
+      line-height: 1.2!important;
+      font-weight: 700!important;
+    }
   }
 
   &__item {
